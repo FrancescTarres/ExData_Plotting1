@@ -1,9 +1,10 @@
 ## Some general comments
 
-This directoryu contains the plotN.R and plotN.png files requested in the Project 1 of Exploratory Data Analysis. 
+This directory contains the plotN.R and plotN.png files requested in the Project 1 of Exploratory Data Analysis. 
 
 The R files read the original data of the project. For correct reading of the data the files shoulfd be in the parent directory of the R files. Every R file reads all the data, subsets the data of interest and plots the graphics in the display. Finally, the graphics are copied to a png file format. (Note: It is recommended to use R and not RStudio for copying the png files)
 
+The original assignment text is copied below
 
 ## Introduction
 
