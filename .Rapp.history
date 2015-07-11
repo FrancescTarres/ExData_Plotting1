@@ -1,0 +1,95 @@
+demo()
+start()
+help.start()
+Sys.setenv(LANG="en_US.UTF-8")
+Sys.setenv(LC_ALL="en_US.UTF-8")
+q()
+x<-1
+print(x)
+x
+msg<-"hello"
+msg
+x<-1+3
+x
+x<-
+5
+x
+5
+x<-1:20
+x
+pwd
+ls
+0/0
+1/0
+vector()
+x->c(1:10)
+x<-c(1:10)
+x
+m<-matrix(5,5)
+atributes(m)
+atribute(m)
+attributes(m)
+m<-matrix(1:25,5,5)
+m
+x<-factor("yes","no","yes")
+x
+x<-factor(c("yes","no","yes"),levels=c("yes", "no"))
+x
+help(read.table)
+install.packages("KernSmooth")
+install.packages('KernSmooth')
+library(KernSmooth)
+cube<-function(x,n){x^3}
+cube(3)
+x<-1:10
+if(x>5){x<-0}
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+f(3)
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y
+install.packages("httr")
+library(httr)
+oauth_endpoints("github")
+FTARU <- oauth_app("github",#
+  key = "79534cd4211bf7f3bb35",#
+  secret = "7a5c885ab1189904e509be2c6a25bac38d38c421")
+github_token <- oauth2.0_token(oauth_endpoints("github"), FTARU)
+library(httpuv)
+install.packages("httpuv")
+library(httpuv)
+github_token <- oauth2.0_token(oauth_endpoints("github"), FTARU)
+gtoken <- config(token = github_token)
+req <- GET("https://api.github.com/users/jtleek/repos", gtoken)
+stop_for_status(req)
+content(req)
+BROWSE("https://api.github.com/users/jtleek/repos",authenticate("Access Token","x-oauth-basic","basic"))
+ls
+load(".RData")
+Plot3
+source("Plot3.r")
+source("Plot3.r")
+source("Plot3.r")
+source("Plot2.r")
+source("Plot1.r")
+par(bg = "white")
+source("Plot1.r")
+source("Plot2.r")
+par(bg = "white")
+source("Plot2.r")
+source("Plot1.r")
+source("Plot1.r")
+source("Plot2.r")
+source("Plot3.r")
+source("Plot3.r")
+source("Plot4.r")
